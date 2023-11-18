@@ -35,7 +35,7 @@ When you encounter a problem installing this module, you have two options:
 Only fasta file format is currently supported.
 
 ### Example,
-> perl MitoFates.pl example.fasta fungi
+    > perl MitoFates.pl example.fasta fungi
 
 ## Output format
 MitoFates outputs 21 Columns with the header (see below).
@@ -88,4 +88,3 @@ http://mitf.cbrc.jp/MitoFates/
 
 For bug reports, question, or comments please contact 
 kenichiro.imai@aist.go.jp
-gairoju@gmail.com
