@@ -51,7 +51,6 @@ Column 4    :Predicted cleavage sites for processing enzymes (MPP, Oct1 and Icp5
 Column 5    :Net charge of predcited presequence
 
 Column 6    :Sequence region matching to TOM20 recognition motif (e.g. 15-19).
-
              In case of multiple hits, each region is deliminated by comma.
              
 Column 7    :Region having the maximum score of positively charged amphiphilicity (PA) score in 
