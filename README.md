@@ -41,18 +41,27 @@ Only fasta file format is currently supported.
 MitoFates outputs 21 Columns with the header (see below).
 
 Column 1    :Sequence ID
+
 Column 2    :Probability of presequence (default cutoff: 0.385).
+
 Column 3    :Prediction result (e.g. Possessing mitochondrial presequence or No mitochondrial presequence)
+
 Column 4    :Predicted cleavage sites for processing enzymes (MPP, Oct1 and Icp55)(e.g. 23(MPP), 31(Oct1)).
+
 Column 5    :Net charge of predcited presequence
+
 Column 6    :Sequence region matching to TOM20 recognition motif (e.g. 15-19).
+
              In case of multiple hits, each region is deliminated by comma.
+             
 Column 7    :Region having the maximum score of positively charged amphiphilicity (PA) score in 
              N-terminal 30 residues. High and low means that the score is higher and lower than 
              the sensitivity and specificity versus cutoff value, respectively (e.g. 2-11-high or 2-11-low).
+             
 Column 8-21 :Regions matching to any of 14 types of statistically significant 6-mers in N-terminal 
              30 residues of presequence (e.g. 13-18). In case of multiple hits, each region is 
              deliminated by comma; 14 motifs is described below. 
+             
              BHHPPP
              BPHBHH
              HBHHBb
@@ -67,10 +76,9 @@ Column 8-21 :Regions matching to any of 14 types of statistically significant 6-
              HHPBHH
              HPBHHP
              PHHBPH
-
-             The letters of the 14 motifs are defined as follows; H, B, P and g indicate
-             hydrophobic (L, F, I, V, W, Y, M, C, A), basic (R, K, H), polar (S, T, N, Q),
-             and secondary structure breaker (P, G), respectively. 
+The letters of the 14 motifs are defined as follows; H, B, P and g indicate
+hydrophobic (L, F, I, V, W, Y, M, C, A), basic (R, K, H), polar (S, T, N, Q),
+and secondary structure breaker (P, G), respectively. 
 
 ## Additional Information
 If you use MitoFates for your research, please cite our paper.
