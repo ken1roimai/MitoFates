@@ -85,5 +85,6 @@ https://doi.org/10.1074%2Fmcp.M114.043083
 
 Web server of MitoFates is available at
 http://mitf.cbrc.jp/MitoFates/
-the source code is available at below repository
+
+The source code is available at below repository
 https://github.com/ken1roimai/MitoFates
