@@ -1,7 +1,15 @@
 # MitoFates (ver. 1.2) 
+![](image/MitoFatesTitle.png)
+
 
 MitoFates predicts presequences (cleavable mitochondrial localization signal 
 in N-termini, and their cleaved position.
+
+Web server of MitoFates is available at
+[http://mitf.cbrc.jp/MitoFates/](https://mitf.cbrc.pj.aist.go.jp/MitoFates)
+
+The source code is available at 
+[https://github.com/ken1roimai/MitoFates](https://github.com/ken1roimai/MitoFates)
 
 Here are some very brief notes on using the MitoFates software.
 
@@ -83,8 +91,3 @@ and secondary structure breaker (P, G), respectively.
 If you use MitoFates for your research, please cite our paper.
 https://doi.org/10.1074%2Fmcp.M114.043083
 
-Web server of MitoFates is available at
-http://mitf.cbrc.jp/MitoFates/
-
-The source code is available at 
-https://github.com/ken1roimai/MitoFates
